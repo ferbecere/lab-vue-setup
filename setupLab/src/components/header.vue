@@ -1,19 +1,14 @@
 <template>
     <div>
+        <span>Message: {{ msg }}</span>
 
     </div>
 </template>
 
 <script>
-export default {
-    setup () {
-        
-
-        return {}
-    }
-}
+msg = "well hello."
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
